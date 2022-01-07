@@ -1,11 +1,7 @@
 #include <iostream>
-#include <vector>
+#include <math.h>
 
 using namespace std;
-
-vector<int> QuickSort(vector<int> &elements) {
-    return elements;
-}
 
 int main() {
     return 0;
