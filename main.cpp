@@ -10,6 +10,19 @@ struct Man {
     vector<string> friends_name;
 };
 
+Man FindDatingMan(const map<string, Man> &friends) {
+    vector<int> queue = {};
+
+    const Man &man = friends.at("andrew");
+    cout << man.name << endl;
+
+    while (!queue.empty()) {
+
+    }
+
+    return {};
+}
+
 int main() {
     map<string, Man> friends;
 
@@ -60,6 +73,8 @@ int main() {
             true,
             {}
     };
+
+    FindDatingMan(friends);
 
     return 0;
 }
